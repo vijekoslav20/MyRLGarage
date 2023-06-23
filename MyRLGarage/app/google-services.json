@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "86425685392",
+    "project_id": "my-rl-garage",
+    "storage_bucket": "my-rl-garage.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86425685392:android:1b1f9adae1e9d8e9097715",
+        "android_client_info": {
+          "package_name": "com.example.myrlgarage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86425685392-k2ang71o5i2b5bkrmfi5c94es8mv8dh4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDueTHOAXieSVZh-paxQk8lOzVg50GprJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "86425685392-k2ang71o5i2b5bkrmfi5c94es8mv8dh4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
