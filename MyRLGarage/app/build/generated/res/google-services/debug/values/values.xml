@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">86425685392-k2ang71o5i2b5bkrmfi5c94es8mv8dh4.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">86425685392</string>
+    <string name="google_api_key" translatable="false">AIzaSyDueTHOAXieSVZh-paxQk8lOzVg50GprJE</string>
+    <string name="google_app_id" translatable="false">1:86425685392:android:1b1f9adae1e9d8e9097715</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDueTHOAXieSVZh-paxQk8lOzVg50GprJE</string>
+    <string name="google_storage_bucket" translatable="false">my-rl-garage.appspot.com</string>
+    <string name="project_id" translatable="false">my-rl-garage</string>
+</resources>
