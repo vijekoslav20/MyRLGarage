@@ -1,0 +1,1 @@
+This file was added purely for the reason that an empty folder cannot exist on GitHub.
