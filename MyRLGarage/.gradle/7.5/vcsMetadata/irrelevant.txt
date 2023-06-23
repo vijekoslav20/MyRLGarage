@@ -1,1 +1,1 @@
-This file was added purely for the reason that an empty folder cannot exist on GitHub.
+This file was added purely for the reason that an empty folder cannot exist on GitHub and I wanted to keep the folder structure the same as it is on my PC.
