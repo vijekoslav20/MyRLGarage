@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\Vjeko\\.gradle\\daemon\\7.5\\com.example.myrlgarage.app-mergeDebugResources-35:\\layout\\activity_welcome.xml",
+        "source": "C:\\Users\\Vjeko\\.gradle\\daemon\\7.5\\com.example.myrlgarage.app-main-38:\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vjeko\\.gradle\\daemon\\7.5\\com.example.myrlgarage.app-mergeDebugResources-35:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Vjeko\\.gradle\\daemon\\7.5\\com.example.myrlgarage.app-main-38:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vjeko\\.gradle\\daemon\\7.5\\com.example.myrlgarage.app-mergeDebugResources-35:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Vjeko\\.gradle\\daemon\\7.5\\com.example.myrlgarage.app-main-38:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vjeko\\.gradle\\daemon\\7.5\\com.example.myrlgarage.app-mergeDebugResources-35:\\layout\\activity_preset_details.xml",
+        "source": "C:\\Users\\Vjeko\\.gradle\\daemon\\7.5\\com.example.myrlgarage.app-main-38:\\layout\\activity_preset_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vjeko\\.gradle\\daemon\\7.5\\com.example.myrlgarage.app-mergeDebugResources-35:\\layout\\activity_create_account.xml",
+        "source": "C:\\Users\\Vjeko\\.gradle\\daemon\\7.5\\com.example.myrlgarage.app-main-38:\\layout\\activity_create_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vjeko\\.gradle\\daemon\\7.5\\com.example.myrlgarage.app-mergeDebugResources-35:\\layout\\activity_show_colors.xml",
+        "source": "C:\\Users\\Vjeko\\.gradle\\daemon\\7.5\\com.example.myrlgarage.app-main-38:\\layout\\activity_show_colors.xml"
+    },
+    {
+        "merged": "com.example.myrlgarage.app-mergeDebugResources-35:/layout/activity_show_colors.xml",
+        "source": "com.example.myrlgarage.app-main-38:/layout/activity_show_colors.xml"
+    }
+]
