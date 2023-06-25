@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".activities.ShowColorsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleBarLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pageTitleTextView"
+            android:text="Color Guide"
+            android:textSize="30sp"
+            android:textColor="@color/secondary"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/blueTeamColorsLayout"
+        android:layout_below="@id/titleBarLayout"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/blueTeamTextView"
+            android:text="Blue Team colors"
+            android:textSize="25sp"
+            android:textColor="@color/primary"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/dropdownBlueBtn"
+            android:src="@drawable/baseline_arrow_right_24"
+            android:layout_alignParentEnd="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:tint="@color/primary"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/blueImg"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/blue_colors"
+            android:layout_below="@+id/blueTeamTextView"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/orangeTeamColorsLayout"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/blueTeamColorsLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/orangeTeamTextView"
+            android:text="Orange Team colors"
+            android:textSize="25sp"
+            android:textColor="@color/primary"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/dropdownOrangeBtn"
+            android:src="@drawable/baseline_arrow_right_24"
+            android:layout_alignParentEnd="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:tint="@color/primary"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/orangeImg"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/orange_colors"
+            android:layout_below="@+id/orangeTeamTextView"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/accentColorsLayout"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/orangeTeamColorsLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/accentTextView"
+            android:text="Accent colors"
+            android:textSize="25sp"
+            android:textColor="@color/primary"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/dropdownAccentBtn"
+            android:src="@drawable/baseline_arrow_right_24"
+            android:layout_alignParentEnd="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:tint="@color/primary"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/accentImg"
+            android:layout_marginTop="-20dp"
+            android:src="@drawable/accent_colors"
+            android:layout_below="@+id/accentTextView"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+</RelativeLayout>
